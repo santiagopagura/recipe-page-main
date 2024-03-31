@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="css/styles.css">
@@ -11,9 +11,7 @@
 </head>
 <body>
   <main>
-    <section>
-      <img src="assets/images/image-omelette.jpeg" alt="image of omelette">
-    </section>
+    <img src="assets/images/image-omelette.jpeg" alt="image of omelette">    
     <section class="contenedor">
       <article>
         <h1>Simple Omelette Recipe</h1>
@@ -57,21 +55,26 @@
       <article>
         <h2>Nutrition</h2>
         <p>The table below shows nutritional values per serving without the additional fillings.<p>
-        <div class="nutBar">  
-          <p><span>Calories</span><span><span class="bold">277kcal</span></span></p>
-          <hr>
-          <p><span>Carbs</span><span><span class="bold">0g</span></span></p>
-          <hr>
-          <p><span>Protein</span><span><span class="bold">20g</span></span></p>
-          <hr>
-          <p><span>Fat</span></span><span><span class="bold">22g</span></span></p>
-        </div>
+        <table class="nutrition__table">
+          <tr>
+            <th>Calories</th>
+            <td>277kcal</td>
+          </tr>
+          <tr>
+            <th>Carbs</th>
+            <td>0g</td>
+          </tr>
+          <tr>
+            <th>Protein</th>
+            <td>20g</td>
+          </tr>
+          <tr>
+            <th>Fat</th>
+            <td>22g</td>
+          </tr>
+        </table>
       </article>
     </section>
   </main>
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
 </body>
 </html>
